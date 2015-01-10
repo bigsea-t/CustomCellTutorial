@@ -13,6 +13,8 @@
 		51624B191A5D10B500D99393 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51624B181A5D10B500D99393 /* Images.xcassets */; };
 		51624B1C1A5D10B500D99393 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51624B1A1A5D10B500D99393 /* LaunchScreen.xib */; };
 		51624B281A5D10B500D99393 /* CustomCellTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51624B271A5D10B500D99393 /* CustomCellTutorialTests.swift */; };
+		51624B321A5D129000D99393 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51624B311A5D129000D99393 /* CustomCell.swift */; };
+		51624B361A5D138700D99393 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51624B351A5D138700D99393 /* Friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		51624B211A5D10B500D99393 /* CustomCellTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCellTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51624B261A5D10B500D99393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51624B271A5D10B500D99393 /* CustomCellTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTutorialTests.swift; sourceTree = "<group>"; };
+		51624B311A5D129000D99393 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		51624B351A5D138700D99393 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Friend.swift; path = ../Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				51624B111A5D10B500D99393 /* AppDelegate.swift */,
+				51624B351A5D138700D99393 /* Friend.swift */,
 				51624B131A5D10B500D99393 /* ViewController.swift */,
 				51624B151A5D10B500D99393 /* Main.storyboard */,
+				51624B311A5D129000D99393 /* CustomCell.swift */,
 				51624B181A5D10B500D99393 /* Images.xcassets */,
 				51624B1A1A5D10B500D99393 /* LaunchScreen.xib */,
 				51624B0F1A5D10B500D99393 /* Supporting Files */,
@@ -161,6 +167,7 @@
 				TargetAttributes = {
 					51624B0B1A5D10B500D99393 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = RPPYM55AWN;
 					};
 					51624B201A5D10B500D99393 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -214,6 +221,8 @@
 			files = (
 				51624B141A5D10B500D99393 /* ViewController.swift in Sources */,
 				51624B121A5D10B500D99393 /* AppDelegate.swift in Sources */,
+				51624B321A5D129000D99393 /* CustomCell.swift in Sources */,
+				51624B361A5D138700D99393 /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
